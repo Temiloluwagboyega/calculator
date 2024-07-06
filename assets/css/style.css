@@ -1,9 +1,15 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     background: rgb(181, 212, 192);
     width: fit-content;
-    margin-top: 80px;
+    margin-top: 20px;
     padding: 150px 10px 10px 10px ;
     border-radius: 10px;
+    position: relative;
 }
 .calculator-cont{
     display: grid;
@@ -25,4 +31,9 @@ button{
 h1{
     color: white;
     text-align: right;
+}
+i{
+    position: absolute;
+    top: 5%;
+    left: 10%;
 }
